@@ -8,5 +8,16 @@
 
 import Foundation
 
-print("Hello, World!")
+// Accumulate test
+var testArray = [12, 22, 32, 4]
+var result = testArray.accumulate(0, _nextPartialResult: +)
+
+print(result)
+
+// Sequence Test
+let names = ["Paula", "Elena", "Zoe"]
+
+let match = names.last{$0.hasSuffix("a")}
+print(match)
+
 
