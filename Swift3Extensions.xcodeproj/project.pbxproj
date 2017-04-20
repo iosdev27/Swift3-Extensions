@@ -10,6 +10,7 @@
 		B173BDD81EA825C900490E3F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173BDD71EA825C900490E3F /* main.swift */; };
 		B1D2F1251EA829AF008A0F77 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2F1241EA829AF008A0F77 /* Array+Extensions.swift */; };
 		B1D2F1271EA829D7008A0F77 /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2F1261EA829D7008A0F77 /* Sequence+Extensions.swift */; };
+		B1D2F1291EA83CEF008A0F77 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2F1281EA83CEF008A0F77 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		B173BDD71EA825C900490E3F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B1D2F1241EA829AF008A0F77 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		B1D2F1261EA829D7008A0F77 /* Sequence+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
+		B1D2F1281EA83CEF008A0F77 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				B173BDD71EA825C900490E3F /* main.swift */,
 				B1D2F1241EA829AF008A0F77 /* Array+Extensions.swift */,
 				B1D2F1261EA829D7008A0F77 /* Sequence+Extensions.swift */,
+				B1D2F1281EA83CEF008A0F77 /* String+Extensions.swift */,
 			);
 			path = Swift3Extensions;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D2F1291EA83CEF008A0F77 /* String+Extensions.swift in Sources */,
 				B1D2F1271EA829D7008A0F77 /* Sequence+Extensions.swift in Sources */,
 				B173BDD81EA825C900490E3F /* main.swift in Sources */,
 				B1D2F1251EA829AF008A0F77 /* Array+Extensions.swift in Sources */,
